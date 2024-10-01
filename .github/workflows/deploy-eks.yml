@@ -35,6 +35,5 @@ jobs:
           kubectl apply -f kubernetes/App
           kubectl get nodes
           kubectl get svc -o wide
-          journalctl -u kubelet
           kubectl get pods -o wide
-
+          kubectl describe nodes
