@@ -35,7 +35,4 @@ jobs:
           kubectl apply -f kubernetes/App
           kubectl get nodes
           kubectl get svc -o wide
-          kubectl get pods -o wide
-          kubectl get deployments -o wide
-          kubectl get configmaps -o wide
-          kubectl get secrets -o wide
+
