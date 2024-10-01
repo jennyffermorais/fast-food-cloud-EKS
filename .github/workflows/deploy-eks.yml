@@ -30,4 +30,6 @@ jobs:
 
       - name: Kube Apply
         run: |
+          kubectl config current-context
+          aws eks update-kubeconfig --name fast-food-project --region us-east-1
           kubectl apply -f kubernetes/App
