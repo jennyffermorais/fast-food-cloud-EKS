@@ -38,3 +38,4 @@ jobs:
           kubectl get svc -o wide
           kubectl get pods -o wide
           kubectl describe nodes
+          kubectl describe svc
